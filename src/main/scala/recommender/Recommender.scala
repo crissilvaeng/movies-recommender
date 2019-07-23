@@ -34,8 +34,7 @@ object Recommender {
 
         val evaluator = new AverageAbsoluteDifferenceRecommenderEvaluator()
         val builder = new RecomendatorBuilder()
-
-        println(evaluator.evaluate(builder, null, model, 0.8, 1.0))
+        evaluator.evaluate(builder, null, model, 0.8, 1.0)
 
         val userId = args(1).toInt
         val howMany = args(2).toInt
