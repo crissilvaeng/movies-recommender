@@ -7,6 +7,6 @@ Run with `sbt "run [csv path]"` in root folder. CSV files accept only in this `u
 
 Powered by Scala + Mahout.
 
-Inspired by Alura's ícone Machine Learning: Introdução ao sistemas de recomendações course.
+Inspired by Alura's Machine Learning: Introdução ao sistemas de recomendações course.
 
 :octocat:
